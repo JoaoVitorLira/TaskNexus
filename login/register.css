@@ -1,0 +1,124 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+  }
+
+/* FIM RESET CSS */
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 35px;
+}
+
+.login {
+    background-color: white;
+    width: 700px;
+    margin: 12%;
+    margin-left: 27%;
+    border-radius: 10px;
+    border: solid black 2px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.149);
+}
+
+.login-form{
+    margin: 35px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+    border: solid 2px black;
+    
+  }
+  
+  .input:focus {
+    border-bottom: 1px solid #6941c6;
+    -webkit-transition: 0.1s;
+    transition: 0.5s;
+  }
+
+  .button {
+    font-family: 'Poppins', sans-serif;
+     display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    margin-top: 35px;
+    margin-left: 37%;
+    --bg: #000;
+    --hover-bg:#E54F6D;
+    overflow-x: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+  .button2 {
+    font-family: 'Poppins', sans-serif;
+     display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    margin-top: 35px;
+    --bg: #000;
+    --hover-bg:#E54F6D;
+    overflow-x: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }

@@ -1,0 +1,127 @@
+/* RESET CSS */
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/* FIM RESET CSS */
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 35px;
+}
+
+.container{
+    background-color: white;
+    width: 55%;
+    height: 500px;
+    border-radius: 25px;
+    margin: 10%;
+    margin-left: 22%;
+    border: solid 3px black;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.input {
+    margin-top: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    outline: none;
+    border: solid black 2px;
+  }
+  
+  .input:focus {
+    border-bottom: 1px solid #6941c6;
+    -webkit-transition: 0.1s;
+    transition: 0.5s;
+  }
+
+  .button {
+    font-family: 'Poppins', sans-serif;
+     display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; 
+    margin-top: 35px;
+    margin-left: 37%;
+    --bg: #000;
+    --hover-bg:#feb5c4 ;
+    hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+#lista{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+
+.button2 {
+  font-family: 'Poppins', sans-serif;
+   display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; 
+  margin: 35px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  --bg: #000;
+  --hover-bg:#E54F6D;
+  overflow-x: #000;
+  color: #fff;
+  border: 1px solid var(--bg);
+  border-radius: 4px;
+  padding: 0.8em 2em;
+  background: var(--bg);
+  transition: 0.2s;
+}
