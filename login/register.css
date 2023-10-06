@@ -38,16 +38,22 @@ h1{
 
 .login {
     background-color: white;
-    width: 700px;
+    width: 850px;
     margin: 12%;
-    margin-left: 27%;
+    margin-left: 25%;
     border-radius: 10px;
     border: solid black 2px;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.149);
 }
 
+.box{
+  display: flex;
+  gap: .625rem;
+}
+
 .login-form{
     margin: 35px;
+    
 }
 
 .form{
